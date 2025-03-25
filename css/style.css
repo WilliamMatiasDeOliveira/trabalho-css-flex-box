@@ -1,0 +1,225 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* Info-bg */
+.info-bg{
+    background-color: darkblue;   
+    color: white; 
+}
+
+.info{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.info p{
+    margin: 4px;
+}
+
+/* Menu */
+.menu-bg{
+    background-color: #0067F5;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 10px;
+}
+
+.menu nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu nav a{
+    font-size: 1em;
+    display: block;
+    padding: 10px 20px;
+}
+
+.menu nav a:hover{
+    text-decoration: underline;
+}
+
+/* Introdução */
+.introducao{
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.sobre{
+    border-top: 2px solid #0067F5;
+    border-bottom: 2px solid #0067F5;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.sobre-info p{
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+    max-width: 300px;
+    justify-content: flex-start;
+}
+
+/* Cuidados */
+.cuidados{
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.cuidados h1{
+    font-size: 3em;
+    margin: 0 10px 10px 10px;
+}
+
+.cuidados-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.cuidados-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.cuidados-item h2{
+    font-size: 3em;
+    color: #a4a4a4;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.cuidados-item img{
+    margin-bottom: 20px;
+}
+
+.purple{
+    border-top: 8px solid #8f8dbf;
+}
+
+.pink{
+    border-top: 8px solid #ee50a2;
+
+}
+
+.blue{
+    border-top: 8px solid #3f90e7;
+
+}
+
+/* Planos */
+.planos-item sup{
+    color: #7c7c7c;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.planos-item span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.planos-item ul{
+    margin: 15px 0;
+    color: #7c7c7c;
+}
+
+.planos-item a{
+    background-color: #3f90e7;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.planos-item a:hover{
+    background-color: #0067F5;
+    color: #a4a4a4;
+}
+
+/* Serviços */
+.servicos{
+    display: flex;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.servicos-item{
+    padding: 10px;
+    flex: 1;
+}
+
+.servicos-item h2{
+    margin-bottom: 10px;
+    color: #7c7c7c;
+}
+
+.servicos-item p{
+    color: grey;
+}
+
+/* Footer */
+footer{
+    background-color: #0067F5;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    color: white;
+}
+
